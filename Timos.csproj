@@ -57,6 +57,18 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\abmive.png" />
+	  <None Remove="Resources\Images\background.jpg" />
+	  <None Remove="Resources\Images\backselected.png" />
+	  <None Remove="Resources\Images\btnclicker.png" />
+	  <None Remove="Resources\Images\btnok.png" />
+	  <None Remove="Resources\Images\icecream.png" />
+	  <None Remove="Resources\Images\icepack.png" />
+	  <None Remove="Resources\Images\milkshak.png" />
+	  <None Remove="Resources\Images\movOne.png" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
